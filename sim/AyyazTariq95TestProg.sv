@@ -1,4 +1,4 @@
-`include "MP2Environment.sv"
+`include "AyyazTariq95Environment.sv"
 program Test(my_interface my_vif);
   Environment Env;
   initial begin
@@ -12,8 +12,8 @@ program Test(my_interface my_vif);
     Env.Gen.numofbeats = 6;
     my_vif.HWRITE <= 1;
     my_vif.HTRANS <= 0;
-    Env.Gen.transac.HWRITE = 1;
-    Env.Gen.transac.HTRANS = 0;
+    //Env.Gen.transac.HWRITE = 1;
+    //Env.Gen.transac.HTRANS = 0;
     Env.run_env(Env.Gen.current_add,Env.Gen.end_addr,Env.Gen.current_data,Env.Gen.rand_me);
   end
 endprogram
