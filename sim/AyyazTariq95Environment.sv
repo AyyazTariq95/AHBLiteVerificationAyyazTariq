@@ -1,8 +1,8 @@
-//`include "MP2Transaction.sv"
-//`include "MP2Generator.sv"
-//`include "MP2Driver.sv"
-//`include "MP2Monitor.sv"
-`include "MP2Scoreboard.sv"
+//`include "AyyazTariq95Transaction.sv"
+//`include "AyyazTariq95Generator.sv"
+//`include "AyyazTariq95Driver.sv"
+//`include "AyyazTariq95Monitor.sv"
+`include "AyyazTariq95Scoreboard.sv"
 class Environment;
 bit [31:0] current_add,current_data,end_addr;
 bit rand_me;
