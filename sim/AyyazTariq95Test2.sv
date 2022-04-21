@@ -1,5 +1,5 @@
-`include "MP2Environment.sv"
-program Test1(my_interface my_vif);
+`include "AyyazTariq95Environment.sv"
+program AyyazTariq95Test2(my_interface my_vif);
   Environment Env;
 initial begin
     Env = new(my_vif);
