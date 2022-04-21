@@ -1,6 +1,6 @@
 //reset testing
-`include "MP2Environment.sv"
-program Test(my_interface my_vif);
+`include "AyyazTariq95Environment.sv"
+program AyyazTariq95Test1(my_interface my_vif);
   Environment Env;
   initial begin
     Env = new(my_vif);
