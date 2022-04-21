@@ -17,7 +17,7 @@ class driver;
       $display("Reset state is high");
       myin_dut.HADDR <= 0; 
       myin_dut.HSIZE <= 0;                   
-      myin_dut.HREADY <= 0;
+      myin_dut.HREADY <= 1;
       end
    wait(myin_dut.HRESETn)
       $display("Reset state is low");
